@@ -8,6 +8,7 @@ public class Triangle implements Shape{
         this.teihen = x;
         this.takasa = y;
     }
+    @Override
     public int calculateArea(){
         return this.teihen * this.takasa / 2;
     }

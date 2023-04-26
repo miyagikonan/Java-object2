@@ -1,15 +1,16 @@
 package oop2;
 
 public class Rectangle implements Shape{
-    private int teihen;
-    private int takasa;
+    private int yoko;
+    private int tate;
 
     public Rectangle(int x,int y){
-        this.teihen = x;
-        this.takasa = y;
+        this.yoko = x;
+        this.tate = y;
     }
 
+    @Override
     public int calculateArea(){
-        return this.teihen * this.takasa;
+        return this.yoko * this.tate;
     }
 }
